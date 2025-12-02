@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\bin\Debug\net8.0\Unit1_HelloThread.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\bin\Debug\net8.0\Unit1_HelloThread.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\bin\Debug\net8.0\Unit1_HelloThread.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\bin\Debug\net8.0\Unit1_HelloThread.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\bin\Debug\net8.0\Unit1_HelloThread.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\refint\Unit1_HelloThread.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\Unit1_HelloThread.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\Unit1_HelloThread\obj\Debug\net8.0\ref\Unit1_HelloThread.dll
