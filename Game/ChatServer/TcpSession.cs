@@ -1,4 +1,9 @@
-﻿using System.Net.Sockets;
+﻿﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Sockets;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace ChatServer
 {
@@ -14,25 +19,27 @@ namespace ChatServer
             _sendQueue = new Queue<ArraySegment<byte>>(); // TODO : Reserving
         }
 
+
         const int KB = 1_024;
         const int HEADER_SIZE = sizeof(ushort);
         const int MAX_PACKET_SIZE = 1 * KB;
         const int DEFAULT_RECV_BUFFER = 4 * KB;
-        
+
         public bool IsConnected => Socket.Connected;
-        
+
         protected Socket Socket;
-        
+
         // Send
         Queue<ArraySegment<byte>> _sendQueue;
-        
+
         // Receive
         byte[] _recvBuffer;
         int _recvBufferCount;
-        
+
         // Events
         public event Action OnConnected;
         public event Action OnDisconnected;
+
 
         public void Start()
         {
@@ -42,13 +49,14 @@ namespace ChatServer
             CloseSocket();
         }
 
+
         public void Send(byte[] body)
         {
             int total = HEADER_SIZE + body.Length;
             byte[] segment = new byte[total];
             Buffer.BlockCopy(BitConverter.GetBytes((ushort)body.Length), 0, segment, 0, HEADER_SIZE);
             Buffer.BlockCopy(body, 0, segment, HEADER_SIZE, body.Length);
-            _sendQueue.Enqueue(new ArraySegment<byte>(segment, 0 , segment.Length));
+            _sendQueue.Enqueue(new ArraySegment<byte>(segment, 0, segment.Length));
             Send();
         }
 
@@ -58,12 +66,12 @@ namespace ChatServer
                 return;
 
             int sent = 0; // 실제 전송된 길이
-            
-            // Socket.Send 요청에 넣은 버퍼데이터가 반드시 전송 보장이 되는 것은 아니기 때문에,
-            // os 가 실제로 얼마만큼 보냈는지 추적하면서 완전히 전송을 보장해주는 구문을 써야한다.
+
+            // Socket.Send 요청에 넣은 버퍼데이터가 반드시 전송 보장이되는것이 아니기 때문에, 
+            // OS 가 실제로 얼마만큼 보냈는지 추적하면서 완전히 전송을 보장해주는 구문을 써야한다.
             while (sent < segement.Count)
             {
-                sent = Socket.Send(segement);
+                sent += Socket.Send(segement);
                 segement = new ArraySegment<byte>(segement.Array, segement.Offset + sent, segement.Count - sent);
             }
         }
@@ -73,9 +81,9 @@ namespace ChatServer
             while (IsConnected)
             {
                 ArraySegment<byte> remainBufferSegment = new ArraySegment<byte>(_recvBuffer, _recvBufferCount, _recvBuffer.Length - _recvBufferCount);
-                
+
                 int read = Socket.Receive(remainBufferSegment);
-                
+
                 // 연결에 문제있음
                 if (read <= 0)
                 {
@@ -93,37 +101,37 @@ namespace ChatServer
         /// </summary>
         void ParsePacket()
         {
-            int offset = 0; // ReciveBuffer 현재 탐색 인덱스
-            
+            int offset = 0; // RecvBuffer 현재 탐색 인덱스
             
             while (true)
             {
                 // 헤더 길이도 안되는 데이터는 파싱이 안되니까 데이터가 더 쌓일때까지 기다려야함
                 if (_recvBufferCount - offset < HEADER_SIZE)
                     return;
-            
-                ushort bodyLength = BitConverter.ToUInt16(_recvBuffer, 0);
-            
-                // 유효한 데이터 인지
+
+                ushort bodyLength = BitConverter.ToUInt16(_recvBuffer, offset);
+
+                // 유효한 데이터인지
                 if (bodyLength <= 0 || bodyLength > MAX_PACKET_SIZE)
                     return;
 
                 // body 가 완전히 다 도착했는지
-                if (_recvBufferCount - offset -  HEADER_SIZE < bodyLength)
+                if (_recvBufferCount - offset - HEADER_SIZE < bodyLength)
                     return;
-            
+
                 byte[] body = new byte[bodyLength];
-                Buffer.BlockCopy(_recvBuffer, offset + HEADER_SIZE,body,0,bodyLength);
+                Buffer.BlockCopy(_recvBuffer, offset + HEADER_SIZE, body, 0, bodyLength);
                 OnPacket(body);
-                offset += HEADER_SIZE + body.Length;
+                offset += HEADER_SIZE + bodyLength;
             }
-            
-            // 처리하고 남은 데이터 앞으로 옮김                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-            Buffer.BlockCopy(_recvBuffer, offset, _recvBuffer,0,_recvBufferCount - offset);
+
+            // 처리하고 남은 데이터 앞으로 옮김
+            Buffer.BlockCopy(_recvBuffer, offset, _recvBuffer, 0, _recvBufferCount - offset);
             _recvBufferCount -= offset;
         }
-        
+
         protected abstract void OnPacket(byte[] body);
+
 
         public void CloseSocket()
         {
@@ -144,16 +152,13 @@ namespace ChatServer
             {
                 // Nothing to do ...
             }
-            
-           
+
             Socket = null;
         }
-        
+
         public void Dispose()
         {
             Socket.Dispose();
         }
     }
 }
-
-
