@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\bin\Debug\net8.0\_3_Cancellation.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\bin\Debug\net8.0\_3_Cancellation.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\bin\Debug\net8.0\_3_Cancellation.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\bin\Debug\net8.0\_3_Cancellation.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\bin\Debug\net8.0\_3_Cancellation.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\refint\_3_Cancellation.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\_3_Cancellation.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_3_Cancellation\obj\Debug\net8.0\ref\_3_Cancellation.dll

@@ -1,49 +1,63 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using System.Diagnostics;
 
-namespace Unit1_ThreadPool
+namespace _2_ThreadPool
 {
-    public class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
             BenchmarkRunner.Run<Benchmarks>();
+            return;
 
-            
-            // workThreads : CPU-Bound thread 개수
+
+            // workerThreads : CPU-Bound thread 개수
             // completionPortThreads : I/O-Bound thread 개수
             ThreadPool.SetMinThreads(4, 4);
             ThreadPool.SetMaxThreads(4, 8);
 
-            // Threadpool 의 이용가능한 스레드가 확보될 때
+            // Threadpool 의 이용가능한 스레드가 확보될때 
             // 해당 쓰레드에 작업을 할당할 대기열에 작업을 등록
             ThreadPool.QueueUserWorkItem(_ =>
             {
-                
-            }
-            );
+
+            });
+
+
         }
 
-        public static class Workload
+        static void Measure(string label, Action action)
         {
-            public static void Compute()
-            {
-                int limit = 100_000;
-                long result = 0;
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
 
-                for (int i = 1; i < limit; i++)
-                {
-                    result += i;
-                }
-            }
+            Stopwatch stopwatch = Stopwatch.StartNew();
+            action.Invoke();
+            stopwatch.Stop();
+
+            Console.WriteLine($"{label} : {stopwatch.ElapsedMilliseconds}");
         }
-        [SimpleJob]
-        public class Benchmarks
-        {
-            [Benchmark] public void Workload_Thread() => Program.Workload.Compute();
-            [Benchmark] public void Workload_ThreadPool() => ThreadPool.QueueUserWorkItem(_ => Program.Workload.Compute());
-        }
-       
     }
-   
+
+    public static class Workload
+    {
+        public static void Compute()
+        {
+            int limit = 100_000;
+            long result = 0;
+
+            for (int i = 1; i < limit; i++)
+            {
+                result += i;
+            }
+        }
+    }
+
+    [SimpleJob]
+    public class Benchmarks
+    {
+        [Benchmark] public void Workload_Thread() => Workload.Compute();
+        [Benchmark] public void Workload_ThreadPool() => ThreadPool.QueueUserWorkItem(_ => Workload.Compute());
+    }
 }

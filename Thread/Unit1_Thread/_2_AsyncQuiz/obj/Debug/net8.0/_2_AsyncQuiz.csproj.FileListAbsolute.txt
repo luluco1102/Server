@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\bin\Debug\net8.0\_2_AsyncQuiz.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\bin\Debug\net8.0\_2_AsyncQuiz.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\bin\Debug\net8.0\_2_AsyncQuiz.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\bin\Debug\net8.0\_2_AsyncQuiz.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\bin\Debug\net8.0\_2_AsyncQuiz.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\refint\_2_AsyncQuiz.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\_2_AsyncQuiz.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_AsyncQuiz\obj\Debug\net8.0\ref\_2_AsyncQuiz.dll

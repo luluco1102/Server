@@ -19,7 +19,6 @@ namespace ChatServer
             _sendQueue = new Queue<ArraySegment<byte>>(); // TODO : Reserving
         }
 
-
         const int KB = 1_024;
         const int HEADER_SIZE = sizeof(ushort);
         const int MAX_PACKET_SIZE = 1 * KB;
