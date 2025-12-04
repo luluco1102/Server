@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\bin\Release\net8.0\_2_Deadlock.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\bin\Release\net8.0\_2_Deadlock.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\bin\Release\net8.0\_2_Deadlock.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\bin\Release\net8.0\_2_Deadlock.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\bin\Release\net8.0\_2_Deadlock.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\refint\_2_Deadlock.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\_2_Deadlock.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_2_Deadlock\obj\Release\net8.0\ref\_2_Deadlock.dll

@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\bin\Release\net8.0\_4_ChannelPipeline.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\bin\Release\net8.0\_4_ChannelPipeline.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\bin\Release\net8.0\_4_ChannelPipeline.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\bin\Release\net8.0\_4_ChannelPipeline.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\bin\Release\net8.0\_4_ChannelPipeline.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\refint\_4_ChannelPipeline.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\_4_ChannelPipeline.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_4_ChannelPipeline\obj\Release\net8.0\ref\_4_ChannelPipeline.dll

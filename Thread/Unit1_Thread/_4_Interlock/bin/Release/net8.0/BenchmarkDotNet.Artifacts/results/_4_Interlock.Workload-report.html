@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>_4_Interlock.Workload-20251204-143911</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet v0.15.8, Windows 10 (10.0.19045.6466/22H2/2022Update)
+Intel Core i5-9400F CPU 2.90GHz (Coffee Lake), 1 CPU, 6 logical and 6 physical cores
+.NET SDK 9.0.304 [C:\Program Files\dotnet\sdk]
+  [Host] : .NET 8.0.22 (8.0.22, 8.0.2225.52707), X64 RyuJIT x86-64-v3
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method          </th><th>Job</th><th>Toolchain       </th><th>IterationCount</th><th>LaunchCount</th><th>RunStrategy</th><th>UnrollFactor</th><th>WarmupCount</th><th>Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>ComputeWithInterlocked</td><td>Dry</td><td>Default</td><td>1</td><td>1</td><td>ColdStart</td><td>1</td><td>1</td><td>NA</td><td>NA</td><td>NA</td>
+</tr><tr><td>ComputeWithLock</td><td>Dry</td><td>Default</td><td>1</td><td>1</td><td>ColdStart</td><td>1</td><td>1</td><td>NA</td><td>NA</td><td>NA</td>
+</tr><tr><td>ComputeWithInterlocked</td><td>InProcess</td><td>InProcessEmitToolchain</td><td>Default</td><td>Default</td><td>Default</td><td>16</td><td>Default</td><td>23.09 ms</td><td>0.063 ms</td><td>0.059 ms</td>
+</tr><tr><td>ComputeWithLock</td><td>InProcess</td><td>InProcessEmitToolchain</td><td>Default</td><td>Default</td><td>Default</td><td>16</td><td>Default</td><td>84.63 ms</td><td>0.280 ms</td><td>0.262 ms</td>
+</tr></tbody></table>
+</body>
+</html>
