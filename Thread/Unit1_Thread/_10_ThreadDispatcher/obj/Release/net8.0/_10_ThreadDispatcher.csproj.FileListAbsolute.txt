@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\bin\Release\net8.0\_10_ThreadDispatcher.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\bin\Release\net8.0\_10_ThreadDispatcher.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\bin\Release\net8.0\_10_ThreadDispatcher.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\bin\Release\net8.0\_10_ThreadDispatcher.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\bin\Release\net8.0\_10_ThreadDispatcher.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\refint\_10_ThreadDispatcher.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\_10_ThreadDispatcher.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_10_ThreadDispatcher\obj\Release\net8.0\ref\_10_ThreadDispatcher.dll

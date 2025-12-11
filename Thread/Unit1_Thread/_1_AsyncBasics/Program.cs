@@ -65,33 +65,33 @@ namespace _1_AsyncBasics
             return true;
         }
 
-        struct FakeDownloadAsyncMachine : IAsyncStateMachine
-        {
-            int _step;
-            
-            public void MoveNext()
-            {
-                // if (_step ~~~)
-                //     return;
-                //     
-                // switch (_step)
-                // {
-                //     case 0:
-                //         Console.WriteLine($"{resourceName} 다운로드 시작...");
-                //         Task.Delay(simulationTimeMS);
-                //         break;
-                //     case 1 :
-                //         Console.WriteLine($"{resourceName} 다운로드 완료.");
-                //         break;
-                //     default:
-                //         break;
-                // }
-            }
-            public void SetStateMachine(IAsyncStateMachine stateMachine)
-            {
-                throw new NotImplementedException();
-            }
-        }
+        // class FakeDownloadAsyncMachine : IAsyncStateMachine
+        // {
+        //     int _step;
+        //     
+        //     public void MoveNext()
+        //     {
+        //         // if (_step ~~~)
+        //         //     return;
+        //         //     
+        //         // switch (_step)
+        //         // {
+        //         //     case 0:
+        //         //         Console.WriteLine($"{resourceName} 다운로드 시작...");
+        //         //         Task.Delay(simulationTimeMS);
+        //         //         break;
+        //         //     case 1 :
+        //         //         Console.WriteLine($"{resourceName} 다운로드 완료.");
+        //         //         break;
+        //         //     default:
+        //         //         break;
+        //         // }
+        //     }
+        //     public void SetStateMachine(IAsyncStateMachine stateMachine)
+        //     {
+        //         throw new NotImplementedException();
+        //     }
+        // }
 
         /*
         static IEnumerable Enumerable()

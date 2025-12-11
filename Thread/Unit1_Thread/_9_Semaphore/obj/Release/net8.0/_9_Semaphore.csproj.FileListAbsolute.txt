@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\bin\Release\net8.0\_9_Semaphore.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\bin\Release\net8.0\_9_Semaphore.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\bin\Release\net8.0\_9_Semaphore.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\bin\Release\net8.0\_9_Semaphore.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\bin\Release\net8.0\_9_Semaphore.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\refint\_9_Semaphore.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\_9_Semaphore.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_9_Semaphore\obj\Release\net8.0\ref\_9_Semaphore.dll

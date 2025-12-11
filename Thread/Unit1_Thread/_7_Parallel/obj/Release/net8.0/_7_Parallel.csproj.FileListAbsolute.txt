@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\bin\Release\net8.0\_7_Parallel.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\bin\Release\net8.0\_7_Parallel.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\bin\Release\net8.0\_7_Parallel.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\bin\Release\net8.0\_7_Parallel.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\bin\Release\net8.0\_7_Parallel.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\refint\_7_Parallel.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\_7_Parallel.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_7_Parallel\obj\Release\net8.0\ref\_7_Parallel.dll

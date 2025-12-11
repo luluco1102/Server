@@ -1,0 +1,15 @@
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\bin\Release\net8.0\_8_Mutex.exe
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\bin\Release\net8.0\_8_Mutex.deps.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\bin\Release\net8.0\_8_Mutex.runtimeconfig.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\bin\Release\net8.0\_8_Mutex.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\bin\Release\net8.0\_8_Mutex.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.AssemblyInfo.cs
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.sourcelink.json
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\refint\_8_Mutex.dll
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.pdb
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\_8_Mutex.genruntimeconfig.cache
+C:\Users\user\Documents\Github\MultiplyGame\Thread\Unit1_Thread\_8_Mutex\obj\Release\net8.0\ref\_8_Mutex.dll

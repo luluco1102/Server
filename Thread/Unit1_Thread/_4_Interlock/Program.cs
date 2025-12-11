@@ -1,13 +1,12 @@
 ﻿/*
  * Interlocked 클래스
- * 시스템의 원자연산을 매핑한 클래스,
+ * 시스템의 원자연산을 매핑한 클래스.
  * 하드웨어 수준에서 CPU 가 단일 명령으로 실행하는 최소 연산 단위이기때문에
- * 다른 쓰레드가 연산 중간에 개입 할 수가 없다.
+ * 다른 쓰레드가 연산 중간에 개입 할 수가없다.
  *
  * 원자연산은 CPU 워드크기 까지만 가능
  * 32 bit system -> 32 bit 까지만 원자연산 됨
  */
-
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
 
@@ -17,31 +16,36 @@ namespace _4_Interlock
     {
         static void Main(string[] args)
         {
+            //Job=Dry  IterationCount=1  LaunchCount=1
+            //RunStrategy=ColdStart  UnrollFactor=1  WarmupCount=1
+            //| Method                 | Mean     | Error |
+            //|----------------------- |---------:|------:|
+            //| ComputeWithInterlocked | 23.95 ms |    NA |
+            //| ComputeWithLock        | 87.60 ms |    NA |
             BenchmarkRunner.Run<Workload>();
             return;
-            
+
             Workload workload = new Workload();
             Thread t1 = new Thread(workload.ComputeWithInterlocked);
             Thread t2 = new Thread(workload.ComputeWithInterlocked);
-            
+
             t1.Start();
             t2.Start();
-            
+
             t1.Join();
             t2.Join();
 
-            Console.WriteLine($"결과값 : {Workload.Accumulate} , 기대값 : {Workload.N * 2}");
+            Console.WriteLine($"결과값 : {Workload.Accumulate} , 기댓값 : {Workload.N * 2}");
         }
     }
 
     [DryJob]
-    [InProcess]
     public class Workload
     {
         public const int N = 5_000_000;
         public static long Accumulate = 0;
         private static readonly object s_gate = new object();
-        
+
         [Benchmark]
         public void ComputeWithInterlocked()
         {
@@ -50,7 +54,7 @@ namespace _4_Interlock
                 Interlocked.Increment(ref Accumulate);
             }
         }
-        
+
         [Benchmark]
         public void ComputeWithLock()
         {

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "_8_Mutex/1.0.0": {
+        "runtime": {
+          "_8_Mutex.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "_8_Mutex/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

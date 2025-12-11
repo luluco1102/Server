@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("_4_ChannelPipeline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de413ad0014544a4ebfd98876cbc634978cd9aa4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a0dd6ee4b64f0163f7fa8f1668a07ef960f6e9f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("_4_ChannelPipeline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("_4_ChannelPipeline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
